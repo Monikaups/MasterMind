@@ -12,7 +12,7 @@ namespace Mastermind
 
             // Generate the random 4 digit answer.
             Random random = new Random();
-            int[] answer = new int[4];
+            int[] answer = new int[4]; //Define array of integer of size 4.
             for (int i = 0; i < 4; i++)
             {
                 answer[i] = random.Next(1, 7); // Generates a random number between 1 and 6
